@@ -1,0 +1,220 @@
+body{
+background-color: whitesmoke;
+
+
+}
+    .bg-primary{
+padding: 3px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: unset;
+font-size:small;
+color: #FFFFFF;
+    }
+
+    #logomarca{
+        float: left;
+        width: 30%;
+                
+     }
+
+ #h2{
+        
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     width: 40%;
+     
+ }   
+
+#titulo{
+    float: left;
+    width: 40%;
+    margin-top: 3%;
+}
+    #sp1{
+        margin-left: 8px;
+    }
+
+    
+.fachada{
+   background-image:uri("C:\Users\xrafa\OneDrive\Área de Trabalho\Intranet\img\Casa Rosa (1).jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    position: relative;
+    width: 100%;
+    
+      
+     
+}
+.fachada-texto{
+    
+    position: absolute; 
+    top: 200px;
+    left: 100px;
+        
+      font-size: 20px;
+      font-style: oblique;
+      color:black;
+      padding-left: 20px;
+      width: 350px;
+      
+           
+}
+    
+ .botoes{
+
+        background-color: blue;
+    
+    padding: 15px;
+        width: 100%;
+    position: absolute;
+ } 
+    #figura1{ 
+        display: inline;
+        float: left;
+        width: 80px;
+        margin-top: 3%;
+        margin-left: 8%;
+}
+    
+    #figura2{
+        display: inline;
+        float:left;
+        width: 80px;
+        margin-top: 3%;
+        margin-left: 8%;
+    }
+    
+    #icon_{
+    
+        display: inline;
+        text-align: center;
+        float: left;
+        color: #FFFFFF;
+           }
+
+           #icon_ p{
+            display: flex;
+            margin-top: 35%;
+            margin-right: 40%;
+           }
+    
+    #colaborador{
+       
+        display: inline;
+        margin-left: 9%;
+        text-align:right;
+        float: left;
+        color: #FFFFFF;
+        
+    }
+    #colaborador p{
+       
+        display:block;
+        padding-left: 115%;
+       margin-top: 30%;        
+        
+    }
+ #exames{
+
+    display: inline;
+        padding-left: 10%;
+        float: left;
+        color: #FFFFFF;
+ }
+
+ #exames p{
+    display:inline-block;
+    margin-top: 0px;
+    width: 110px;
+    padding-left: 15px;
+    
+ }
+ #suporte_{
+
+    display: inline;
+        float:left;
+         margin-top: 0%;
+        
+    color: #FFFFFF;
+ }
+
+ #suporte_ p{
+    display: inline-block;
+    width: 110px;
+    padding-left: 10px;
+    color: #FFFFFF;
+
+ }
+ #Triagem{
+
+    display: inline;
+    margin-top: 20px;
+    margin-right: 40px;
+    float: left;
+    color: #FFFFFF;
+
+ }
+ #Triagem p{
+    display: inline-block;
+    margin-top: 6px;
+    padding-left: 8px;
+    
+    
+    color: #FFFFFF;
+
+ }
+ #Labore{
+    display: inline;
+    margin-top: auto;
+    margin-left: 10px;
+    float: left;
+    color: #FFFFFF;
+ }
+ #Labore p{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 10px;
+    
+    color: #FFFFFF;
+ }
+ .menu_lateral{
+    position: absolute;
+    top: 580px;
+    margin-left: 1100px;
+    padding: 10px;
+    background-color: blue;
+    width: 250px;
+    color: #FFFFFF;
+    border-color: black;
+
+ }
+ 
+ .primeiro_botao{
+
+    margin-top: 11%;
+    margin-left: 18%;
+    width: 25%;
+    height: 15%;
+    color: #FFFFFF;
+    border-color: black;
+    background-image:url("C:\Users\xrafa\OneDrive\Área de Trabalho\Intranet\img\LOGO_SOUL-removebg-preview.png");
+
+
+    display: grid;  
+    grid-template-columns: 200px 200px 200px;  
+    grid-template-rows: 100px 100px; 
+    gap: calc(20px + 10%);;
+
+ }
+
+ .primeiro_botao button{
+
+    border-radius: 10px;
+
+ }
+ 
+ .footer-class{
+
+    margin-bottom: 10%;
+    
+
+ }
